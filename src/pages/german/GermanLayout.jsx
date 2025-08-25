@@ -11,6 +11,7 @@ function GermanLayout() {
     };
 
     return (
+
         <div className="flex flex-col min-h-screen bg-gray-200">
             {/* Fixed Navbar at the top */}
             <AuthNavbar onToggleSidebar={toggleSidebar} />
